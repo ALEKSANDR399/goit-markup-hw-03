@@ -392,6 +392,7 @@ img {
 
 .container-scroll {
   display: flex;
+  padding-bottom: 94px;
 }
 
 .section-list {
@@ -410,6 +411,14 @@ img {
 
 .img-content {
   border: 1px solid #ececec;
+  padding-bottom: 26px;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.section-link {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-name {
