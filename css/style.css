@@ -59,13 +59,13 @@ img {
 
 .header {
   background-color: #fff;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .container {
@@ -139,6 +139,8 @@ img {
 
 .hero {
   background-color: var(--secondary-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
@@ -156,12 +158,10 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-align: center;
-  max-width: 695px;
-  padding-top: 200px;
+  max-width: 696px;
 }
 
 .button-block {
-  padding-bottom: 200px;
 }
 
 .button {
@@ -247,9 +247,7 @@ img {
 
 .personal {
   background-color: #f5f4fa;
-}
-
-.personal-container {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -259,7 +257,7 @@ img {
   line-height: 1.16;
   text-align: center;
   color: var(--secondary-text-color);
-  padding-top: 94px;
+
   margin-bottom: 50px;
 }
 
@@ -302,8 +300,8 @@ img {
 }
 
 .img-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* --------------------------------footer------------------------------- */
 .footer {
@@ -358,13 +356,12 @@ img {
 
 .header-portfolio {
   background-color: #fff;
-  margin-top: 32px;
+  border-bottom: 1px solid #ececec;
 }
 
 .portfolio-header-container {
   display: flex;
   align-items: baseline;
-  border-bottom: 1px solid #ececec;
 }
 
 .ul-nav-list:not(:last-child) {
@@ -374,13 +371,12 @@ img {
 /* -----------------------------------------Portfolio-main----------------------- */
 
 .section-btn-list {
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .list-btn {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 
 .btn {
@@ -395,7 +391,7 @@ img {
   background-color: var(--button-bgc);
   color: var(--secondary-text-color);
   border: 0px;
-  padding: 12px 23px 13px 23px;
+  padding: 6px 22px 6px 22px;
 }
 
 .btn-list:not(:last-child) {
@@ -411,9 +407,14 @@ img {
 
 /* ------------------------POrtfolio-section-list ------------------------*/
 
+.main-content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container-scroll {
   display: flex;
-  padding-bottom: 94px;
+  justify-content: center;
 }
 
 .section-list {
